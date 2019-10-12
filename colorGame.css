@@ -1,6 +1,7 @@
-<<<<<<< HEAD
 body {
     background-color: #232323;
+    margin: 0;
+    font-family:"Montserrat" 
 }
 
 .square{
@@ -8,7 +9,11 @@ body {
     background: purple;
     padding-bottom: 30%;
     float: left;
-    margin: 1.66%
+    margin: 1.66%;
+    border-radius: 10%;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
 }
 
 #container {
@@ -18,25 +23,52 @@ body {
 
 h1{
     color: white;
-=======
-body {
-    background-color: #232323;
+    background-color: steelblue;
+    text-align: center;
+    margin:0;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.1;
+    padding: 20px 0;
 }
 
-.square{
-    width: 30%;
-    background: purple;
-    padding-bottom: 30%;
-    float: left;
-    margin: 1.66%
+#colorDisplay{
+    font-size: 200%
 }
 
-#container {
-    margin: 0 auto;
-    max-width: 600px;
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
 }
 
-h1{
+#displayMessage{
+    display: inline-block;
+    width: 20%;
+
+}
+
+.selected{
     color: white;
->>>>>>> ce0892a0c9226bb70d4bf314cebe39d928b11366
+    background-color: steelblue;
+}
+
+button{
+    border: none;
+    background: none;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: steelblue;
+    font-size: inherit;
+    outline: 0px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
 }
